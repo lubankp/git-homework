@@ -1,0 +1,39 @@
+  452  mkdir git-majonez2
+  453  ls
+  454  cd git-majonez2
+  455  git init
+  456  touch main.cpp
+  457  git status
+  458  git add main.cpp 
+  459  git status
+  460  git commit -m "Initial commit"
+  461  vim main.cpp 
+  462  git status
+  463  git add main.cpp 
+  464  git commit -m "Farewell changed"
+  465  git remote add origin https://github.com/lubankp/git-homework.git
+  466  git push -u origin master
+  467  git branch cs
+  468  git log
+  469  git checkout cs
+  470  git log
+  471  git reset --hard 421c7536750ea2dfef3543eeeb086239e1b261e3
+  472  git log
+  473  vim main.cpp
+  474  git status
+  475  git add main.cpp 
+  476  git commit -m "Greetings"
+  477  git push origin cs
+  478  git checkout master
+  479  git marge cs
+  480  git merge cs
+  481  vim main.cpp
+  482  git status
+  483  git add main.cpp 
+  484  git status
+  485  git commit
+  486  history
+  487  history | tail -n 32
+  488  history | tail -n 35
+  489  history | tail -n 38
+  490  history | tail -n 39 > history.txt
